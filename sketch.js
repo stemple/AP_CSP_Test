@@ -10,7 +10,7 @@ function setup() {
     text(numbers, 10, 30);
     isort(numbers, numReadings);
     text(numbers, 10, 60);
-    //printArray(numbers, sizeof(numbers)); 
+    //printArray(numbers, sizeof(numbers));
 }
 
 function draw() {
@@ -21,6 +21,7 @@ function draw() {
 }
 
 function isort(a, n) {
+  // this sorts a list of random numbers
     for (var i = 1; i < n; ++i) {
         var j = a[i];
         var k;
@@ -30,6 +31,7 @@ function isort(a, n) {
         a[k + 1] = j;
     }
 }
+
 
 //void loop() {
 //  // subtract the last reading:
