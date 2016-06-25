@@ -6,9 +6,9 @@ var numReadings = 4;
 
 function setup() {
     createCanvas(640, 480);
-    var numbers = new Array(random(900,1000),random(0,1000),random(0,100));
+    var numbers = new Array(random(0,1),random(0,1),random(0,1), random(0,1));
     text(numbers, 10, 30);
-    isort(numbers, 3);
+    isort(numbers, numReadings);
     text(numbers, 10, 60);
     //printArray(numbers, sizeof(numbers)); 
 }
