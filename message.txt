@@ -1,6 +1,3 @@
 Hi Kevin. This is a file we can use to learn how to use git and github.
-<<<<<<< HEAD
-Hi Kevin, this is Kevin.  I got your message.
-=======
 Hi Steve, this is Kevin, and I got your message.
->>>>>>> origin/master
+
