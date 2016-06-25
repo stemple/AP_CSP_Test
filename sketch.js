@@ -31,6 +31,10 @@ function isort(a, n) {
     }
 }
 
+function doNothing() {
+    // do nothing
+}
+
 //void loop() {
 //  // subtract the last reading:
 //  total = total - readings[readIndex];
